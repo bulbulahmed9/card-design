@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+    />
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+
+  <body>
+    <div class="contact">
+      <div class="contact-content">
+        <a class="button" href="./index.html">Back</a>
+        <div class="form-box">
+          <h2 id="text11">Contact</h2>
+          <p id="text12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            vestibulum risus sit amet lectus condimentum, ac fermentum nibh
+            ullamcorper magna.
+          </p>
+          <form id="form02" action="">
+            <div class="field">
+              <label for="form02-name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="form02-name"
+                placeholder=""
+                maxlength="128"
+                required=""
+              />
+            </div>
+            <div class="field">
+              <label for="form02-email">Email</label
+              ><input
+                type="email"
+                name="email"
+                id="form02-email"
+                placeholder=""
+                maxlength="128"
+                required=""
+              />
+            </div>
+            <div class="field" style="display: none">
+              <input
+                type="text"
+                name="link-urk"
+                id="form02-link-urk"
+                placeholder="Link Urk"
+                maxlength="128"
+                disabled=""
+              />
+            </div>
+            <div class="field">
+              <label for="form02-message">Message</label
+              ><textarea
+                name="message"
+                id="form02-message"
+                placeholder=""
+                maxlength="16384"
+                required=""
+              ></textarea>
+            </div>
+            <div class="actions">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="dist/js/jquery-3.3.1.min.js"></script>
+    <script src="dist/js/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
